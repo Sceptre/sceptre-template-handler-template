@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-__version__ = "0.1.1"
+__version__ = "0.1.0"
 
 # More information on setting values:
 # https://github.com/Sceptre/project/wiki/sceptre-template-handler-template
