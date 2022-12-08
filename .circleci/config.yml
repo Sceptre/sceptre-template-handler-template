@@ -107,7 +107,7 @@ jobs:
 
   deploy-test:
     docker:
-      - image: cloudreach/sceptre-circleci:0.8.0
+      - image: sceptreorg/sceptre-circleci:1.1.0
 
     steps:
       - checkout
@@ -145,7 +145,7 @@ jobs:
 
   deploy-production:
     docker:
-      - image: cloudreach/sceptre-circleci:0.8.0
+      - image: sceptreorg/sceptre-circleci:0.8.0
 
     steps:
       - checkout
