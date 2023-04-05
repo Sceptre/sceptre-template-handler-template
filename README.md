@@ -1,6 +1,6 @@
 # README
 
-Add your handler readme here. Remember to include the following:
+Add your template handler readme here. Remember to include the following:
 
 - Tell people how to install it (e.g. pip install ...).
 - Be clear about the purpose of the template handler, its capabilities and limitations.

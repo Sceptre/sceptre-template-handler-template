@@ -2,7 +2,7 @@
 from sceptre.template_handlers import TemplateHandler
 
 
-class CustomTemplateHandler(TemplateHandler):
+class Custom(TemplateHandler):
     """
     The following instance attributes are inherited from the parent class TemplateHandler.
 
@@ -21,18 +21,14 @@ class CustomTemplateHandler(TemplateHandler):
     """
 
     def __init__(self, *args, **kwargs):
-        super(CustomTemplateHandler, self).__init__(*args, **kwargs)
+        super(Custom, self).__init__(*args, **kwargs)
 
     def schema(self):
         """
         Return a JSON schema of the properties that this template handler requires.
         For help filling this, see https://github.com/Julian/jsonschema
         """
-        return {
-            "type": "object",
-            "properties": {},
-            "required": []
-        }
+        return {"type": "object", "properties": {}, "required": []}
 
     def handle(self):
         """
