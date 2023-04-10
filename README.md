@@ -1,11 +1,38 @@
 # README
 
-Add your handler readme here. Remember to include the following:
+## Overview
 
-- Tell people how to install it (e.g. pip install ...).
-- Be clear about the purpose of the template handler, its capabilities and limitations.
-- Tell people how to use it.
-- Give examples of the template handler in use.
+A brief description. Be clear about the purpose of the
+template handler, its capabilities and limitations.
 
-If you have any questions or encounter an issue
-[please open an issue](https://github.com/Sceptre/project/issues/new)
+## Installation
+
+Installation instructions
+
+To install directly from PyPI
+```shell
+pip install sceptre-template-handler-template
+```
+
+To install from the git repo
+```shell
+pip install git+https://github.com/Sceptre/sceptre-template-handler-template.git
+```
+
+## Usage/Examples
+
+Refer to the
+[Sceptre template handler docs](https://docs.sceptre-project.org/latest/docs/hooks.html#hook-points)
+for more information.
+
+```yaml
+template:
+  type: <template handler>
+```
+
+## Example
+
+```yaml
+template:
+  type: custom
+```
