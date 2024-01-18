@@ -44,6 +44,7 @@ jobs:
       - id: generate-envlist
         run: poetry run tox --gh-matrix
   unit-tests:
+    needs: get-tox-envlist
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
