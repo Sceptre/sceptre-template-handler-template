@@ -22,7 +22,7 @@ pip install git+https://github.com/Sceptre/sceptre-template-handler-template.git
 ## Usage/Examples
 
 Refer to the
-[Sceptre template handler docs](https://docs.sceptre-project.org/latest/docs/hooks.html#hook-points)
+[Sceptre template handler docs](https://docs.sceptre-project.org/latest/docs/template_handlers.html)
 for more information.
 
 ```yaml
