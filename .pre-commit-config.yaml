@@ -1,3 +1,7 @@
+ci:
+  autoupdate_schedule: monthly
+  skip: ["poetry-lock"] # work around for https://github.com/pre-commit-ci/issues/issues/241
+
 default_language_version:
   python: python3
 
@@ -43,6 +47,7 @@ repos:
     rev: '2.1.1'
     hooks:
       - id: poetry-check
+      - id: poetry-lock
   - repo: https://github.com/sirosen/check-jsonschema
     rev: 0.31.3
     hooks:
